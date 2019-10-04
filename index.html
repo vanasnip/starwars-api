@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+    }
+    ul.results,
+    #main-div {
+      width: 100%;
+      display: grid;
+    }
+    ul.results {
+      grid-template-columns: auto auto;
+      grid-gap: 10px;
+    }
+    li {
+      list-style:none;
+    }
+    .res-tile {
+     box-shadow: 1px 1px 2px black;
+     text-align: center;
+    }
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <input id="searchTxt" type="text" placeholder="search">
+  <input id="searchBtn" type="button" value="search" disabled>
+ <script src="app.js"></script>
+</body>
+</html>
